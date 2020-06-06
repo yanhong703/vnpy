@@ -31,10 +31,10 @@ endif()
 include_directories(${CTPAPI_PATH})
 set(CTPAPI_LIBRARY )
 find_library(CTPAPI_MD_LIBRARY
-  NAMES thostmduserapi_se
+  NAMES thostmduserapi
   PATHS ${CTPAPI_PATH}) 
 find_library(CTPAPI_TD_LIBRARY
-  NAMES thosttraderapi_se
+  NAMES thosttraderapi
   PATHS ${CTPAPI_PATH})
 
 
